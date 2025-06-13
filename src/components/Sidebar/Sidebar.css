@@ -1,0 +1,26 @@
+.custom-sider {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+.sidebar-content {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.admin {
+  padding: 16px;
+  color: white;
+  text-align: center;
+}
+
+.create-button-wrapper {
+  padding: 16px;
+}
+
+.create-button {
+  width: 100%;
+}

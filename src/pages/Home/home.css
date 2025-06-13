@@ -1,0 +1,88 @@
+.profile-wrapper {
+  background-image: url("https://images.unsplash.com/photo-1498579809087-ef1e558fd1da"); /* optional bg */
+  background-size: cover;
+  background-position: center;
+  padding: 60px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.profile-card {
+  background-color: white;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  max-width: 600px;
+  width: 100%;
+  text-align: center;
+}
+
+.avatar {
+  width: 120px;
+  height: 120px;
+  background-color: #dc3545;
+  color: white;
+  font-size: 50px;
+  font-weight: bold;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 20px auto;
+}
+
+.info h2 {
+  font-size: 28px;
+  margin: 0;
+}
+
+.username {
+  color: #555;
+  margin-top: 5px;
+  font-size: 16px;
+}
+
+.badge {
+  background-color: #22c55e;
+  color: white;
+  padding: 4px 12px;
+  border-radius: 999px;
+  font-size: 14px;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+.actions {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.copy-btn,
+.delete-btn {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.copy-btn {
+  background-color: #2563eb;
+  color: white;
+}
+
+.copy-btn:hover {
+  background-color: #1d4ed8;
+}
+
+.delete-btn {
+  background-color: #ef4444;
+  color: white;
+}
+
+.delete-btn:hover {
+  background-color: #dc2626;
+}
