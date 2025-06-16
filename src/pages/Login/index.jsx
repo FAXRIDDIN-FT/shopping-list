@@ -16,18 +16,18 @@ function Login() {
       username: e.target[0].value,
       password: e.target[1].value,
     };
-    
+  
     let res = await axios.post(
       "https://nt-shopping-list.onrender.com/api/auth",
       user
     );
     localStorage.setItem("token", res.data.token);
     console.log(res);
-    if (res.status===200) {
-        navigate("/")
-        
+    if (res.status === 200) {
+      navigate("/");
     }
   };
+
   return (
     <div>
       <div className="register-container">
